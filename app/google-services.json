@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013576265283",
+    "firebase_url": "https://roundemup-3517c.firebaseio.com",
+    "project_id": "roundemup",
+    "storage_bucket": "roundemup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013576265283:android:9c9c3cacf9a91d602eaef6",
+        "android_client_info": {
+          "package_name": "com.example.timefighter.roundemup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013576265283-2rt0u98i43eg22usta64ev7gfjgstkmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timefighter.roundemup",
+            "certificate_hash": "e48c32054ff7f295d6f3ba0e015a0b68f7ba0ed1"
+          }
+        },
+        {
+          "client_id": "1013576265283-pd0dvaf9rb9pdub3u0sd3b6kdpltb4sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-mY0uF6QKERHBmUZCN5bjAFHLIA4aeUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013576265283-pd0dvaf9rb9pdub3u0sd3b6kdpltb4sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
