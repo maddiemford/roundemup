@@ -76,6 +76,7 @@ class GameActivity : AppCompatActivity() {
                 val intent2 = Intent(this@GameActivity, LeaderboardActivity::class.java)
                 intent2.putExtra("Username", intent.extras?.get("Username").toString())
                 intent2.putExtra("Address", intent.extras?.get("Address").toString())
+               intent2.putExtra("Score", score)
                 this@GameActivity.startActivity(intent2)
             }
         }.start()

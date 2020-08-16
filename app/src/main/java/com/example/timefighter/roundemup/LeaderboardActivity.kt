@@ -17,6 +17,7 @@ class LeaderboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_leaderboard)
         database = Firebase.database.reference
+         yourScore.text = "Your Score: "+ intent?.extras?.get("Score")
 
 //        val player = Player(12, intent.extras?.get("Address").toString())
 //        database.child("players").child(intent.extras?.get("username").toString()).setValue(player)
