@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background = "@drawable/activitygamescreen">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="374dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@drawable/cow"
+            android:onClick="increaseScore"
+            tools:ignore="MissingConstraints"></ImageView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/highScoreRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="number"
+        android:text="Score"
+        android:textColor="#FA020202"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0707"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.192" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
