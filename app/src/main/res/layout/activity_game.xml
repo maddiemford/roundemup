@@ -132,6 +132,7 @@
         android:id="@+id/timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
         android:textColor="#0E0707"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -141,6 +142,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gridLayout"
         app:layout_constraintVertical_bias="0.192" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
